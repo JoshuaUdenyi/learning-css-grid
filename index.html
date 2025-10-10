@@ -1,14 +1,36 @@
 <!DOCTYPE html>
-<html lang="en">
-
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+<style>
+.box1 {
+  display: block;
+  background: lightblue;
+  padding: 10px;
+  margin: 5px;
+}
+.box2 {
+  display: inline;
+  background: lightgreen;
+  padding: 10px;
+  margin: 5px;
+}
+.box3 {
+  display: inline-block;
+  background: pink;
+  padding: 10px;
+  margin: 5px;
+  width: 100px;
+}
+</style>
 </head>
-
 <body>
-    <h1>Hello Welcome to my Website</h1>
-</body>
+  <div class="box1">Block Box</div>
+  <div class="box1">Another Block</div>
 
+  <span class="box2">Inline Box</span>
+  <span class="box2">Next Inline</span>
+
+  <div class="box3">Inline-block</div>
+  <div class="box3">Another One</div>
+</body>
 </html>
