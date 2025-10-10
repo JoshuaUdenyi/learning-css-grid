@@ -1,44 +1,27 @@
 <!DOCTYPE html>
 <html>
-
 <head>
-    <style>
-        .box1 {
-            display: block;
-            background: lightblue;
-            padding: 10px;
-            margin: 5px;
-        }
+<style>
+img {
+  float: left;
+  margin-right: 10px;
+  width: 150px;
+  border-radius: 10px;
+}
 
-        .box2 {
-            display: inline;
-            background: lightgreen;
-            padding: 10px;
-            width: 100px;
-            height: 100px;
-            margin: 5px;
-        }
-
-        .box3 {
-            display: inline-block;
-            background: pink;
-            padding: 10px;
-            margin: 5px;
-            width: 100px;
-            height: 200px;
-        }
-    </style>
+p {
+  font-family: Arial;
+  line-height: 1.5;
+}
+</style>
 </head>
-
 <body>
-    <div class="box1">Block Box</div>
-    <div class="box1">Another Block</div>
-
-    <span class="box2">Inline Box</span>
-    <span class="box2">Next Inline</span>
-
-    <div class="box3">Inline-block</div>
-    <div class="box3">Another One</div>
+  <img src="https://picsum.photos/150" alt="sample image">
+  <p>
+    This is a simple example of how float works.
+    The image is floated to the left, so the text
+    wraps nicely around it. You can change "left"
+    to "right" and see how the layout changes.
+  </p>
 </body>
-
 </html>
